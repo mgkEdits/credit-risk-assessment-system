@@ -43,5 +43,5 @@ This project aims to optimize this trade-off by building a classifier that prior
 * **Dataset Source:** [Freddie Mac Data Page](http://www.freddiemac.com/research/datasets/sf_loanlevel_dataset.page)
 
 ---
-*Author: [Your Name]*
+*Author: [Elijah Nyasiando]*
 *A student of the arts of Computing, Machine Learning, and Edge Systems.*
