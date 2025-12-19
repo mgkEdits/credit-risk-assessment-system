@@ -19,18 +19,6 @@ In selecting an algorithm, I benchmarked **Logistic Regression** against **Rando
 * **Robustness to Outliers:** Financial data is "noisy." Random Forest is an ensemble method that aggregates multiple decision trees, making it less sensitive to outliers and variance in the 3M+ record dataset.
 
 
-## 📊 Model Performance Comparison
-The following table illustrates why the **Random Forest** was selected over the **Logistic Regression** baseline, focusing on the financial cost of errors.
-
-| Metric | Logistic Regression (Baseline) | Random Forest (Final) | Why it matters in FinTech |
-| :--- | :--- | :--- | :--- |
-| **Recall (Catching Defaults)** | 62% | **84%** | Higher recall prevents the approval of high-risk borrowers. |
-| **Precision** | 45% | **58%** | Better precision reduces "Opportunity Cost" (unnecessary rejections). |
-| **F1-Score** | 0.52 | **0.69** | The harmonic mean showing overall model robustness. |
-| **ROC-AUC** | 0.78 | **0.91** | Indicates superior ability to distinguish between classes. |
-| **Decision Speed** | High | Medium | Random Forest is slightly slower but provides massive gains in accuracy. |
-
-
 ## 4. Metrics & Evaluation
 Because of the significant **Class Imbalance** (Defaults < 2%), **Accuracy** was discarded as a primary metric. Instead, the model was optimized for:
 
