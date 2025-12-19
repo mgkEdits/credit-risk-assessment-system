@@ -10,7 +10,7 @@ def main():
     
     # --- CONFIGURATION ---
     # Replace these with your actual URLs
-    KAGGLE_NOTEBOOK_URL = "https://www.kaggle.com/code/elijahnyasiando/creditriskmodel-masterdataset"
+    KAGGLE_NOTEBOOK_URL = "https://www.kaggle.com/code/elijahnyasiando/creditriskmodel-eda"
     DATASET_URL = "https://www.kaggle.com/datasets/elijahnyasiando/2018-2019-small-loans-data/data" 
     # Or the official Freddie Mac link if you didn't upload the dataset publicly
     
